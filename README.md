@@ -9,4 +9,7 @@ The UI code is a basic react app under the /ui directory
 from movie-ui directory run 
 
 npm install
+
 npm start
+
+UI should run on localhost:3000
