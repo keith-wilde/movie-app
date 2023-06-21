@@ -7,7 +7,7 @@ Sets up an in memory H2 database and inserts some sample data on startup.
 ### Running UI (UI isn't complete yet)
 The UI code is a basic react app under the /ui directory
 
-from movie-ui directory run 
+From movie-ui directory run 
 
 npm install
 
