@@ -1,5 +1,4 @@
 import './App.css';
-import {MovieForm} from "./MovieForm";
 import React, {useEffect, useState} from "react";
 import axios from "axios";
 
@@ -20,7 +19,6 @@ function App() {
     return (
         <div className="App">
             <header className="App-header">
-                <MovieForm></MovieForm>
                 <ul>{movies.map((movie) => (
                     <li key={movie.id}>
                     <span>
