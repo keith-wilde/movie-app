@@ -18,16 +18,17 @@ function App() {
 
     return (
         <div className="App">
-            <header className="App-header">
+            <h1>Movies</h1>
+            <div className="block-list">
                 <ul>{movies.map((movie) => (
                     <li key={movie.id}>
                     <span>
-                        {movie.title + ' -  ' + movie.director}
+                        <a href={'http://localhost:8080/movies/' + movie.id}> {movie.title + ' -  ' + movie.director}</a>
                     </span>
                     </li>
                 ))}
                 </ul>
-            </header>
+            </div>
         </div>);
 }
 
